@@ -290,4 +290,15 @@ video {
     #contact .container {
         flex-direction: column;
     }
+    .profile-pic img{
+        width: 420px;
+        height: 420px;
+    }
+}
+@media (max-width: 480px) {
+    .profile-pic img{
+        width: 300px;
+        height: 300px;
+    }
+
 }
